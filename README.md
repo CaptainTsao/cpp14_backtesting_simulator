@@ -22,6 +22,10 @@ This project actually implements WFA (Walk Forward Analysis) for testing algorit
 
 Each directory has a makefile.  Just `cd` and type `make`.  You need to build the **simulator** directory first.
 
+## Notes
+
+Because I was/am stupid, this is using a realtime clock instead of a monotonic one.  Oops.
+
 ## License
 
 BSD
